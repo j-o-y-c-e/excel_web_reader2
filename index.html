@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excel Web Reader</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Excel Web Reader</h1>
+        
+        <div class="control-panel">
+            <label for="category">Select a category:</label>
+            <select id="category">
+                <option value="">-- Select --</option>
+                <option value="Fruits">Fruits</option>
+                <option value="Cars">Cars</option>
+                <option value="Flowers">Flowers</option>
+            </select>
+        </div>
+        
+        <div class="results">
+            <h2>Items:</h2>
+            <ul id="items-list"></ul>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
